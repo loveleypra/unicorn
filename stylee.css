@@ -100,9 +100,11 @@ img{
     .image{
         width: 100%;
         justify-content: center;
+        text-align: center;
     }
     img{
         width: 18rem;
+        text-align: center;
     }
     nav{
         position:left;
