@@ -99,9 +99,6 @@ img{
     }
     .image{
         width: 100%;
-        position: absolute;
-        display: flex;
-        bottom: 1%;
         justify-content: center;
     }
     img{
