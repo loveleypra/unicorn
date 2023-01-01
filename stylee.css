@@ -106,7 +106,6 @@ img{
     }
     img{
         width: 18rem;
-        object-fit: scale-down;
     }
     nav{
         position:left;
