@@ -132,3 +132,16 @@ input[type=button]:hover{
   background-color:rgb(229, 221, 221);
   color: rgb(71, 168, 216);
 }
+@media screen  and (max-width:600px){
+  body{
+    height: 100vh;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  input[type=button]{
+    font-size: 12px;
+  }
+}
