@@ -32,7 +32,6 @@ body{
 }
 .form-box{
     width: 85%;
-    height: 65%;
     max-width: 450px;
     position: absolute;
     top: 50%;
@@ -120,4 +119,7 @@ form p a{
 }
 .btn-field button.dis{
     background: #999;
+}
+button{
+    margin-left: 15px;
 }
