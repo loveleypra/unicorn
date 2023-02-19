@@ -71,5 +71,24 @@ console.log(app);
 
       });		  		  
   });
-  
 
+
+
+  let signupbtn =document.getElementById("register");
+  let signinbtn =document.getElementById("login");
+  let nameField =document.getElementById("nameField");
+  let title =document.getElementById("title");
+
+  signinbtn.onclick = function(){
+      nameField.style.maxHeight = "0";
+      title.innerHTML="sign in";
+      signupbtn.classList.add("dis");
+      signinbtn.classList.remove("dis");
+  }
+
+  signupbtn.onclick = function(){
+      nameField.style.maxHeight = "60px";
+      title.innerHTML="sign up";
+      signupbtn.classList.remove("dis");
+      signinbtn.classList.add("dis");
+  }

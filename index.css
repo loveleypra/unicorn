@@ -32,6 +32,7 @@ body{
 }
 .form-box{
     width: 85%;
+    height: 65%;
     max-width: 450px;
     position: absolute;
     top: 50%;
@@ -101,6 +102,9 @@ form p a{
     display: flex;
     justify-content: center;
 }
+button{
+    margin-left: 15px;
+}
 .btn-field button{
     flex-basis: 48% ;
     background: #3c00a0;
@@ -120,6 +124,15 @@ form p a{
 .btn-field button.dis{
     background: #999;
 }
-button{
-    margin-left: 15px;
+
+img{
+    position: absolute;
+    top: 20px;
+    margin-left: 10px;
+}
+h2{
+    position: absolute;
+    top: 25px;
+    margin-left: 45px;
+    font-family: 'Courier New', Courier, monospace;
 }
